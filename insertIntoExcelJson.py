@@ -2,7 +2,7 @@ import pandas as pd
 import json 
 import openpyxl as opxl;
 
-# this code will pickup json from one excel sheet and refractor all those json variables to other json sheet 
+# this code will pickup json from one excel sheet and refractor all those json variables to column in other excel sheet 
 
 
 dataframeJson = opxl.load_workbook("C:\\Users\\BelalAzam\\Downloads\\fileExcel.xlsx")  #sheetlocation of json
