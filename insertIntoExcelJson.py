@@ -1,6 +1,10 @@
 import pandas as pd
 import json 
 import openpyxl as opxl;
+
+# this code will pickup json from one excel sheet and refractor all those json variables to other json sheet 
+
+
 dataframeJson = opxl.load_workbook("C:\\Users\\BelalAzam\\Downloads\\fileExcel.xlsx")  #sheetlocation of json
 dataframeSaver = opxl.load_workbook("C:\\Users\\BelalAzam\\Downloads\\fileExcel.xlsx") #sheetlocation of file to save
 sheetFromJson = dataframeJson["Sheet1"]
