@@ -1,6 +1,10 @@
 import pandas as pd
 import openpyxl as opxl;
 
+
+# this code will pickup each row one by one and will create insert query for the database 
+# table name will be as per sheet name and column name of sheet should be same as table column name
+
 # enter the name of file location 
 dataframe = opxl.load_workbook("C:\\Users\\BelalAzam\\Downloads\\bs_aa_tracker.xlsx")
 
